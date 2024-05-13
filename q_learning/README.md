@@ -1,4 +1,4 @@
-Deep Q-Learning for Enduro
+# Deep Q-Learning for Enduro
 
 How to run the code:
 1. Launch the Jupyter Notebook
