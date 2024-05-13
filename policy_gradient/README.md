@@ -2,7 +2,7 @@
 
 This folder contains the code for training and testing vanilla policy gradient in playing Enduro, Atari 2600 racing game.
 
-### Disclaimer: This code was executed using Google Colab T4 Python environment on May 2024. Due to Torch RL and OpenAI Gym deprecation, running this code may cause error in the future
+### Disclaimer: This code was executed using Google Colab T4 Python environment on May 2024. Due to Torch RL and OpenAI Gym deprecation, running this code in the future may have errors
 
 # How to Run
 
