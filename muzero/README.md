@@ -14,7 +14,7 @@ MiniZero is designed to run on a Linux platform and requires at least one NVIDIA
 - **CPU**: Ryzen 7 3700x
 - **GPU**: GPU RTX 2070 Super with 8 GB VRAM.
 - **RAM**: 15GB.
-- **Operating System**: Ubuntu 22.04 LTS.
+- **Operating System**: WSL with Ubuntu 22.04 LTS.
 
 
 ## Quick Start Guide
