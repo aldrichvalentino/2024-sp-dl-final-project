@@ -1,6 +1,6 @@
 # Muzero for Enduro
 
-This project is based on modifications of [Reinforcement Learning and Games Lab, Institute of Information Science, Academia Sinica]'s [minizero](https://github.com/rlglab/minizero/tree/main?tab=readme-ov-file).
+This project is based on modifications of [minizero](https://github.com/rlglab/minizero/tree/main?tab=readme-ov-file) from Reinforcement Learning and Games Lab, Institute of Information Science, Academia Sinica
 
 ## Modifications
 - Adjust container scripts to be compatible with WSL
@@ -32,4 +32,9 @@ Start the runtime environment using a container. Ensure you have either Podman o
 scripts/start-container.sh # Start the container
 ```
 Once the container is up and running, it will set its working directory to /workspace. Remember to run all following commands inside this container environment.
+
+### Training
+```bash=
+tools/quick-run.sh train atari gmz 300 -n enduro_nn2_n18 -conf_str program_auto_seed=true:actor_mcts_reward_discount=0.997:actor_mcts_value_rescale=true:actor_resign_threshold=-2:zero_num_games_per_iteration=250:zero_disable_resign_ratio=1:learner_per_init_beta=0.4:learner_per_beta_anneal=false:learner_training_step=200:learner_training_display_step=100:learner_batch_size=512:learner_n_step_return=5:learner_learning_rate=0.1:nn_num_blocks=2:nn_num_hidden_channels=64:nn_num_value_hidden_channels=64:env_atari_name=enduro:learner_num_thread=12:zero_replay_buffer=5:learner_use_per=true
+```
 
