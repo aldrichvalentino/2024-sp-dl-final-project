@@ -23,7 +23,7 @@ MiniZero is designed to run on a Linux platform and requires at least one NVIDIA
 ### Step 1: Clone the Repository
 To get started, clone the repository to your local machine:
 ```bash=
-git clone git@github.com:rlglab/minizero.git
+git clone git@github.com:aldrichvalentino/2024-sp-dl-final-project.git
 cd minizero # Navigate into the cloned repository
 ```
 ### Step 2: Launch the Runtime Environment
