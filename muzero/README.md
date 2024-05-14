@@ -21,17 +21,17 @@ MiniZero is designed to run on a Linux platform and requires at least one NVIDIA
 
 
 ### Step 1: Clone the Repository
-To get started, clone the repository to your local machine:
+To get started, clone the repository to local machine:
 ```bash=
 git clone git@github.com:aldrichvalentino/2024-sp-dl-final-project.git
 cd minizero # Navigate into the cloned repository
 ```
 ### Step 2: Launch the Runtime Environment
-Start the runtime environment using a container. Ensure you have either Podman or Docker installed:
+Start the runtime environment using a container. Ensure either Podman or Docker is installed:
 ```bash=
 scripts/start-container.sh # Start the container
 ```
-Once the container is up and running, it will set its working directory to /workspace. Remember to run all following commands inside this container environment.
+Once the container is up and running, it will set its working directory to /workspace. Remember to run all the following commands inside this container environment.
 
 ### Training
 ```bash=
