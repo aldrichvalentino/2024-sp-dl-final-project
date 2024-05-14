@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Hope you find this helpful!"
+authors:
+- family-names: "Halim"
+  given-names: "Aldrich"
+- family-names: "Liu"
+  given-names: "Chi-Feng"
+- family-names: "Widjaja"
+  given-names: "Jason"
+title: "Application of Reinforcement Learning Models for Atari 2600 Enduro"
+version: 1.0.0
+date-released: 2024-05-13
+url: "https://github.com/aldrichvalentino/2024-sp-dl-final-project"
